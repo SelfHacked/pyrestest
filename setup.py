@@ -32,7 +32,6 @@ if sys.argv[-1] == 'tag':
 readme = open('README.rst').read()
 
 install_requirements = [
-    'pytest',
     'pytest-django',
     'djangorestframework',
 ]
